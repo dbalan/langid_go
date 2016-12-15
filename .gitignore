@@ -28,3 +28,9 @@ _testmain.go
 
 # External packages folder
 vendor/
+
+# specific files
+lang_identification
+
+# emacs tmp
+*~
