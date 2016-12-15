@@ -1,4 +1,4 @@
-package language_detection
+package langid_go
 
 // #cgo LDFLAGS: -lprotobuf-c
 // #include "langid_go.h"
@@ -19,19 +19,3 @@ func (l *LanguageIdentifier) DetectLanguage(data string) string {
 	lang := C.detect_language(C.CString(data))
 	return C.GoString(lang)
 }
-
-/*
-func main() {
-	li := NewIdfr()
-	defer li.Destroy()
-
-	val := []string{
-		"Sɔsó egbexɔxɔ do amɛnyinyi to alɔkpa ɖekpo kpwimɛ",
-		"മനുഷ്യാവകാശങ്ങള്‍",
-	}
-
-	for _, v := range val {
-		fmt.Println(li.DetectLanguage(v))
-	}
-}
-*/
