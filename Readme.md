@@ -1,7 +1,7 @@
 # language detection
 
 This is a go wrapper around [langid.c](https://github.com/saffsd/langid.c). The
-repo include all the neccesory c code and the default trained model to be able
+repo include all the necessary c code and the default trained model to be able
 to use as is.
 
 ## Installation
