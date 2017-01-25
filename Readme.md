@@ -47,6 +47,4 @@ https://github.com/cliqz-oss/langid_go/blob/master/langid_go.go#L3
 1. Loading your own model is not supported.
 2. No interface to get the probability values out.
 
-
 tags: golang, go, langid.go
-
